@@ -1,7 +1,7 @@
 # interpolate_point_to_grid_r
 Ingest irregularly-spaced rainfall (gauge) data for one day and interpolate them to regular degree grid spacing in R
 
-This is an exercise in R that can be applied to any need to ingest .csv point data and interpolate it to a regularly-spaced R raster and .csv output. This particular case uses fake rain gauge data over El Salvador and interpolates it to a 0.1 degree grid.
+This is an exercise in R that can be applied to any need to ingest .csv point data and interpolate it to a regularly-spaced R raster and .csv output. This particular case uses fake rain gauge data over El Salvador and interpolates it to a 0.1 degree grid. With the raster or .csv output alone, it is not possible to reverse engineer the original location of the point measurements.
 
 Use the PowerPoint file for a general introduction to the R console and to perform the functions interactively. The data inputs needed for this exercise are provided in the "data_inputs" folder.
 
